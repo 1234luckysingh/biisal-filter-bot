@@ -24,7 +24,7 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/unique_hacker_2006")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002204720453'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/hd_movie_and_webseries')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://keshavptdr001:kumar6467@cluster0.dprnfds.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://lucky6467singh:<password>@cluster0.jkyrjij.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
