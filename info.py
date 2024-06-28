@@ -19,7 +19,7 @@ API_ID = int(environ.get('API_ID', '20475714'))
 API_HASH = environ.get('API_HASH', 'a3d6d3f2a3d9677d3a581f7364989f4c')
 BOT_TOKEN = environ.get('BOT_TOKEN', '6165486744:AAFW3C6588558QbLWfRD_-ddGAWAfY')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6021953357 6914575809 7316619429').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6021953357 6914575809').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/unique_hacker_2006")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002204720453'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/hd_movie_and_webseries')
